@@ -21,9 +21,9 @@ public class PasswordGenerator {
         color = in.nextLine();
         System.out.println("inserisci il giorno della tua data di nascita");
         day = in.nextInt();
-        System.out.println("inserisci il giorno della tua data di nascita");
+        System.out.println("inserisci il mese della tua data di nascita");
         month = in.nextInt();
-        System.out.println("inserisci il giorno della tua data di nascita");
+        System.out.println("inserisci l'anno della tua data di nascita");
         year = in.nextInt();
 
         int sum = day + month + year;
