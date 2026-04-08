@@ -25,6 +25,7 @@ public class PasswordGenerator {
         month = in.nextInt();
         System.out.println("inserisci l'anno della tua data di nascita");
         year = in.nextInt();
+        in.close();
 
         int sum = day + month + year;
 
